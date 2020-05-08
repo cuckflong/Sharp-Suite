@@ -2,6 +2,10 @@
 
 Adapted version of UrbanBishop such that it supports base64 encoded shellcode and automatically injects shellcode into explorer.exe. Therefore it can then be compiled into a single payload without needing any argument.
 
+# Compile
+
+csc.exe .\BerlinDefence.cs .\Program.cs .\Shellcode.cs
+
 # Sharp-Suite
 
 The king is dead, long live the king. I am starting a new repo with code samples in C#. My heart is still with PowerShell <3, lets face it using in-line C# in PowerShell is a much nicer experience than actually using C#! However, threat emulation has to evolve over time and so does the tooling.
